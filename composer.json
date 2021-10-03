@@ -1,0 +1,23 @@
+{
+    "name": "lazev/testdeal",
+    "description": "test for lenvendo",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vadim Lazev",
+            "email": "megasvdonsk@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Lazev\\": "src/",
+            "Lazev\\CommandCreater\\": "src/CommandCreater/",
+            "Lazev\\InputParser\\": "src/InputParser/",
+            "Lazev\\OutputHandler\\": "src/OutputHandler/",
+            "App\\Command\\": "Command/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
